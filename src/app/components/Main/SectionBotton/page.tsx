@@ -130,6 +130,47 @@ export const SectionBoton = () => {
                 <input type="text" />
             </form>
         </div>
+
+        <div>
+            <title></title>
+            <input type="text" />
+        </div>
+
+        <div>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+        </div>
+
+        <div>
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+        </div>
+
+        <div>
+            <input type="textarea" />
+        </div>
+
+        <div>
+            <input type="color" />
+            <input type="text" />
+            <input type="range" />
+            <input type="text" />
+            <input type="date" />
+            <input type="month" />
+            <input type="week" />
+            <input type="datetime" />
+            <input type="datetime-local" />
+            <input type="file" />
+        </div>
+
+        <div>
+            <input type="submit" />
+            <input type="button" />
+            <input type="reset" />
+            <input type="submit" />
+        </div>
         </>
     );  
 }
