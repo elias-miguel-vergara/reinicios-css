@@ -2,41 +2,54 @@ import process from "process";
 export const SectionBoton = () => {
     return (
         <>
-        <h1></h1>
+        <h1>Tabular data</h1>
         <div>
-            <p></p>
+            <p>Table Caption</p>
+        <div className="div">
         <div>
-            <h1></h1>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1></h1>
+            <h1>Table Heading 1</h1>
+            <p>Table Cell 1</p>
+            <p>Table Cell 1</p>
+            <p>Table Cell 1</p>
+            <p>Table Cell 1</p>
+            <h1>Table Footer 1</h1>
         </div>
         <div>
-            <h1></h1>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1></h1>
+            <h1>Table Heading 2	</h1>
+            <p>Table Cell 2</p>
+            <p>Table Cell 2</p>
+            <p>Table Cell 2</p>
+            <p>Table Cell 2</p>
+            <h1>Table Footer 2</h1>
         </div>
         <div>
-            <h1></h1>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1></h1>
+            <h1>Table Heading 3	</h1>
+            <p>Table Cell 3</p>
+            <p>Table Cell 3</p>
+            <p>Table Cell 3</p>
+            <p>Table Cell 3</p>
+            <h1>Table Footer 3</h1>
         </div>
         <div>
-            <h1></h1>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1></h1>
+            <h1>Table Heading 4</h1>
+            <p>Table Cell 4</p>
+            <p>Table Cell 4</p>
+            <p>Table Cell 4</p>
+            <p>Table Cell 4</p>
+            <h1>Table Footer 4</h1>
         </div>
+
+        <div>
+            <h1>Table Heading 5</h1>
+            <p>Table Cell 5</p>
+            <p>Table Cell 5</p>
+            <p>Table Cell 5</p>
+            <p>Table Cell 5</p>
+            <h1>Table Footer 5</h1>
+        </div>
+
+        </div>
+
         </div>
 
         <div>

@@ -1,47 +1,53 @@
+import "./page.css";
+
 export default function HeaderPage() {
     return (
         <>
-            <button>None</button>
-            <button></button>
-            <h1></h1>
-            <p></p>
+            <div className="flex flex-col">
+              <h1 className="font-bold text-3xl">HTML5 Test Page</h1>
+                <br />
+              <p>This is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS systems and frameworks.</p>
+                <br />
+              <p>(The next set of links lead to each section.)</p>
+            </div>
+            
             <ul>
             <li>
               <a href="#text">Text</a>
               <ul>
-                <li><a href="#text__headings">Headings</a></li>
-                <li><a href="#text__paragraphs">Paragraphs</a></li>
-                <li><a href="#text__blockquotes">Blockquotes</a></li>
-                <li><a href="#text__lists">Lists</a></li>
-                <li><a href="#text__hr">Horizontal rules</a></li>
-                <li><a href="#text__tables">Tabular data</a></li>
-                <li><a href="#text__code">Code</a></li>
-                <li><a href="#text__inline">Inline elements</a></li>
+                <li><a href="">Headings</a></li>
+                <li><a href="">Paragraphs</a></li>
+                <li><a href="">Blockquotes</a></li>
+                <li><a href="">Lists</a></li>
+                <li><a href="">Horizontal rules</a></li>
+                <li><a href="">Tabular data</a></li>
+                <li><a href="">Code</a></li>
+                <li><a href="">Inline elements</a></li>
               </ul>
             </li>
             <li>
-              <a href="#embedded">Embedded content</a>
+              <a href="">Embedded content</a>
               <ul>
-                <li><a href="#embedded__images">Images</a></li>
-                <li><a href="#embedded__audio">Audio</a></li>
-                <li><a href="#embedded__video">Video</a></li>
-                <li><a href="#embedded__canvas">Canvas</a></li>
-                <li><a href="#embedded__meter">Meter</a></li>
-                <li><a href="#embedded__progress">Progress</a></li>
-                <li><a href="#embedded__svg">Inline SVG</a></li>
-                <li><a href="#embedded__iframe">IFrames</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href="">Audio</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Canvas</a></li>
+                <li><a href="">Meter</a></li>
+                <li><a href="">Progress</a></li>
+                <li><a href="">Inline SVG</a></li>
+                <li><a href="">IFrames</a></li>
               </ul>
             </li>
             <li>
-              <a href="#forms">Form elements</a>
+              <a href="">Form elements</a>
               <ul>
-                <li><a href="#forms__input">Input fields</a></li>
-                <li><a href="#forms__select">Select menus</a></li>
-                <li><a href="#forms__checkbox">Checkboxes</a></li>
-                <li><a href="#forms__radio">Radio buttons</a></li>
-                <li><a href="#forms__textareas">Textareas</a></li>
-                <li><a href="#forms__html5">HTML5 inputs</a></li>
-                <li><a href="#forms__action">Action buttons</a></li>
+                <li><a href="">Input fields</a></li>
+                <li><a href="">Select menus</a></li>
+                <li><a href="">Checkboxes</a></li>
+                <li><a href="">Radio buttons</a></li>
+                <li><a href="">Textareas</a></li>
+                <li><a href="">HTML5 inputs</a></li>
+                <li><a href="">Action buttons</a></li>
               </ul>
             </li>
           </ul>
