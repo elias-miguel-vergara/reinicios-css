@@ -56,72 +56,71 @@ export const SectionBoton = () => {
             <h3><p></p></h3>
             <h3><p></p></h3>
             <h3><p></p></h3>
-            <h1></h1>
+            <h1>Pre-formatted text</h1>
             <p></p>
         </div>
 
         <div>
-            <h1></h1>
-            <h2></h2>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h1>Inline elements</h1>
+            <h2>Strong is used to indicate strong importance.</h2>
+            <p>This text has added emphasis.</p>
+            <p>The b element is stylistically different text from normal text, without any special importance.</p>
+            <p>The i element is text that is offset from the normal text.</p>
+            <p>The u element is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
+            <p>This text is deleted and This text is inserted.</p>
+            <p>This text has a strikethrough.</p>
+            <p>Superscript®.</p>
+            <p>Subscript for things like H2O.</p>
+            <p>This small text is small for for fine print, etc.</p>
+            <p>Abbreviation: HTML</p>
+            <p>This text is a short inline quotation.</p>
+            <p>This is a citation.</p>
+            <p>The dfn element indicates a definition.</p>
+            <p>The mark element indicates a highlight.</p>
+            <p>The variable element, such as x = y.</p>
+            <p>The time element: 2 weeks ago</p>
         </div>
 
         <div>
-            <h1></h1>
-            <h1></h1>
-            <h3></h3>
+            <h1>Embedded content</h1>
+            <h3>No figure element</h3>
             <img src="" alt="" />
-            <h3></h3>
+            <h3>Wrapped in a element, no </h3>
             <img src="" alt="" />
-            <h3></h3>
+            <h3>Wrapped in a element, with a</h3>
             <img src="" alt="" />
         </div>
 
         <div>
-            <h1></h1>
+            <h1>Audio</h1>
             <audio src=""></audio>
         </div>
 
         <div>
-            <h1></h1>
+            <h1>Video</h1>
             <video src=""></video>
         </div>
 
         <div>
-            <h1></h1>
+            <h1>Canvas</h1>
         </div>
 
         <div>
-            <h1></h1>
+            <h1>Meter</h1>
         </div>
 
         <div>
-            <h1></h1>
+            <h1>Progress</h1>
             <meter></meter>
         </div>
 
         <div>
-            <h1></h1>
+            <h1>Inline SVG</h1>
             <div></div>
         </div>
 
         <div>
-            <h1></h1>
+            <h1>IFrame</h1>
             <div></div>
         </div>
 
@@ -131,6 +130,7 @@ export const SectionBoton = () => {
         </div>
 
         <div>
+            <h1>Form elements</h1>
             <form action="">
                 <input type="text" />
                 <input type="text" />
