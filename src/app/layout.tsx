@@ -11,8 +11,13 @@ export const metadata: Metadata = {
 };
 
 const LINKS = [{ title: 'Text', href: '/'},
-{ title: 'Heading', href: '/heading' },
-{ title: 'Paragraphs', href: '/paragraph' }]
+{ title: 'Heading', href: '/' },
+{ title: 'Paragraphs', href: '/' },
+{ title: 'List', href: '/' },
+{ title: 'Horizontal rules', href: '/' },
+{ title: 'Tabular data', href: '/' },
+{ title: 'Code', href: '/' },
+{ title: 'Inline elements', href: '/' },]
 
 export default function RootLayout({
   children,
