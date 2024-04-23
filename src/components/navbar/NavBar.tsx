@@ -8,7 +8,7 @@ type NavbarProps = {
 const Navbar = ({ links }: NavbarProps) => {
 
   return <>
-    <nav className="flex mx-6	my-9 items-center justify-between bg-light-color px-8 py-2">
+    <nav className="flex mx-6	my-9 items-center justify-between bg-light-color px-8 py-2 border-y-2">
       <div>
         <ul className="flex gap-6 text-primary-color font-bold">
           {links && links.map((link, index) =>
