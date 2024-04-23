@@ -14,9 +14,14 @@ export default function Home() {
         <h5 className="pb-5">Heading5</h5>
         <h6 className="pb-5">Heading6</h6>
       </div>
-      <div id="paragraph">
+      <div id="paragraph" className="flex flex-col pb-11 text-xl">
         <h1 className="flex pb-5 font-bold text-xl justify-center">Paragraph</h1>
         <p>A paragraph (from the Greek paragraphs, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Although not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+      </div>
+      <div className="flex font-bold text-xl">
+       <blockquote id="blockquotes" >
+        <p>This is an example of a blockquotes</p>
+      </blockquote> 
       </div>
     </main>
   );

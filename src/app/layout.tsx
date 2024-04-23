@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 const LINKS = [{ title: 'Text', href: '#text' },
 { title: 'Heading', href: '#heading' },
 { title: 'Paragraphs', href: '#paragraph' },
+{ title: 'Blockquotes', href: '#blockquotes' },
 { title: 'List', href: '#lists' },
 { title: 'Horizontal rules', href: '#horizontal-rules' },
 { title: 'Tabular data', href: '#tabular-data' },
