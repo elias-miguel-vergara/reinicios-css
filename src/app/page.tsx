@@ -24,16 +24,33 @@ export default function Home() {
       </blockquote> 
       </div>
 
-      <div id="lists" className="flex pb-11 text-xl">
+      <div id="lists" className="flex flex-col pb-11 text-xl">
+        <div className="flex justify-center">
+          <h1 className="font-bold text-xl pb-5">List</h1>
+        </div>
         <div className="flex flex-col">
-          <h1 className="font-bold text-xl pb-5">Definition list</h1>
-            <dl>
+          <div className="flex flex-row">
+
+            <div className="pr-11">
+             <dl>
+              <h1 className="font-bold text-xl pb-5">Definition list</h1>
               <dt>Definition List Title 1</dt>
               <dd className="pb-11">This is a definition list division 1.</dd>
-
               <dt>Definition List Title 2</dt>
               <dd>This is a definition list division 2.</dd>
-            </dl>
+            </dl> 
+            </div>
+          
+            <div>
+              <ol>
+                <h1 className="font-bold text-xl pb-5">Ordered list</h1>
+                <li>1. This is a list item in an ordered list.</li>
+                <li>2. This is a list item in an ordered list.</li>
+                <li>3. This is a list item in an ordered list.</li>
+              </ol>
+            </div>
+            
+          </div>
         </div>
         
 
