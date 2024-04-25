@@ -50,13 +50,22 @@ export default function Home() {
               </ol>
             </div>
 
-            <div>
+            <div className="pr-11">
               <ul className="list-disc">
                 <h1 className="font-bold text-xl pb-5">Unordered List</h1>
                 <li>This is a list item in an unordered list.</li>
                 <li>This is a list item in an unordered list.</li>
                 <li>This is a list item in an unordered list.</li>
               </ul>
+            </div>
+
+            <div>
+              <ol className="list-decimal">
+                <h1 className="font-bold text-xl pb-5">Ordered List with class</h1>
+                <li>This is a list item in an unordered list.</li>
+                <li>This is a list item in an unordered list.</li>
+                <li>This is a list item in an unordered list.</li>
+              </ol>
             </div>
             
           </div>
