@@ -41,13 +41,22 @@ export default function Home() {
             </dl> 
             </div>
           
-            <div>
-              <ol>
+            <div className="pr-11">
+              <ol className="list-decimal">
                 <h1 className="font-bold text-xl pb-5">Ordered list</h1>
-                <li>1. This is a list item in an ordered list.</li>
-                <li>2. This is a list item in an ordered list.</li>
-                <li>3. This is a list item in an ordered list.</li>
+                <li>This is a list item in an ordered list.</li>
+                <li>This is a list item in an ordered list.</li>
+                <li>This is a list item in an ordered list.</li>
               </ol>
+            </div>
+
+            <div>
+              <ul className="list-disc">
+                <h1 className="font-bold text-xl pb-5">Unordered List</h1>
+                <li>This is a list item in an unordered list.</li>
+                <li>This is a list item in an unordered list.</li>
+                <li>This is a list item in an unordered list.</li>
+              </ul>
             </div>
             
           </div>
