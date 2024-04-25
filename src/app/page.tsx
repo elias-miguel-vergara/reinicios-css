@@ -70,8 +70,10 @@ export default function Home() {
             
           </div>
         </div>
-        
 
+        <div className="flex flex-col pt-11">
+          <hr /> 
+        </div>
 
       </div>
 
