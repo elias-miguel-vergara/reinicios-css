@@ -20,6 +20,7 @@ export default function Home() {
       </div>
       <div className="flex pb-11 font-bold text-xl">
        <blockquote id="blockquotes" >
+        <h1>Blockquotes</h1>
         <p>This is an example of a blockquotes</p>
       </blockquote> 
       </div>
@@ -70,13 +71,75 @@ export default function Home() {
             
           </div>
         </div>
-
-        <div className="flex flex-col pt-11">
-          <hr /> 
-        </div>
-
       </div>
 
+      <div id="horizontal-rules" className="flex flex-col">
+        <hr /> 
+      </div>
+
+      <div id="tabular-data" className="flex flex-col pb-11">
+        <div className="flex justify-center">
+          <h1 className="font-bold text-xl pb-5">Tabular data</h1>
+        </div>
+        <table className="border border-slate-500 border-collapse table-fixed">
+          <caption>Table caption</caption>
+          <thead>
+            <tr>
+              <th className="border border-slate-600">Table Heading 1</th>
+              <th className="border border-slate-600">Table Heading 2</th>
+              <th className="border border-slate-600">Table Heading 3</th>
+              <th className="border border-slate-600">Table Heading 4</th>
+              <th className="border border-slate-600">Table Heading 5</th>
+            </tr>
+          </thead>
+           <tbody>
+              <tr>
+                <td className="border border-slate-700">Table Cel 1</td>
+                <td className="border border-slate-700">Table Cel 2</td>
+                <td className="border border-slate-700">Table Cel 3</td>
+                <td className="border border-slate-700">Table Cel 4</td>
+                <td className="border border-slate-700">Table Cel 5</td>
+              </tr>
+              <tr>
+                <td className="border border-slate-700">Table Cel 1</td>
+                <td className="border border-slate-700">Table Cel 2</td>
+                <td className="border border-slate-700">Table Cel 3</td>
+                <td className="border border-slate-700">Table Cel 4</td>
+                <td className="border border-slate-700">Table Cel 5</td>
+              </tr>
+              <tr>
+                <td className="border border-slate-700">Table Cel 1</td>
+                <td className="border border-slate-700">Table Cel 2</td>
+                <td className="border border-slate-700">Table Cel 3</td>
+                <td className="border border-slate-700">Table Cel 4</td>
+                <td className="border border-slate-700">Table Cel 5</td>
+              </tr>
+              <tr>
+                <td className="border border-slate-700">Table Cel 1</td>
+                <td className="border border-slate-700">Table Cel 2</td>
+                <td className="border border-slate-700">Table Cel 3</td>
+                <td className="border border-slate-700">Table Cel 4</td>
+                <td className="border border-slate-700">Table Cel 5</td>
+              </tr>
+              <tr>
+                <td className="border border-slate-700">Table Cel 1</td>
+                <td className="border border-slate-700">Table Cel 2</td>
+                <td className="border border-slate-700">Table Cel 3</td>
+                <td className="border border-slate-700">Table Cel 4</td>
+                <td className="border border-slate-700">Table Cel 5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th className="text-start border border-slate-600">Table Footer 1</th>
+                <th className="text-start border border-slate-600">Table Footer 2</th>
+                <th className="text-start border border-slate-600">Table Footer 3</th>
+                <th className="text-start border border-slate-600">Table Footer 4</th>
+                <th className="text-start border border-slate-600">Table Footer 5</th>
+              </tr>
+            </tfoot>
+          </table>
+      </div>
     </main>
   );
 }
