@@ -1,3 +1,5 @@
+import KeyBoardInput from '@/components/KeyBoardInput'
+
 export default function Home() {
   return (
     <main className="flex flex-col justify-between p-24">
@@ -140,6 +142,11 @@ export default function Home() {
             </tfoot>
           </table>
       </div>
+
+      <div id="code" className="flex flex-col pb-11">
+        <KeyBoardInput />
+      </div>
+
     </main>
   );
 }
